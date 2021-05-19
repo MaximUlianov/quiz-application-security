@@ -1,2 +1,21 @@
 server:
   port: 9091
+
+jwt:
+  signkey: quizappsec123sign
+  token:
+    validity_seconds: 3600
+
+feign:
+  client:
+    config:
+      default:
+        builder: feing.Builder
+        connectionTimeout: 7000
+        readTimeout: 7000
+        loggerLevel: headers
+        contract: org.springframework.cloud.openfeign.support.SpringMvcContract
+
+url:
+  backend: http://localhost:9090
+
