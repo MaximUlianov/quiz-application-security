@@ -1,7 +1,7 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.security.service;
+package com.ulianoff.quizapplication.security.security.service;
 
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto.AuthDto;
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.security.dao.UserAuthenticationRestClient;
+import com.ulianoff.quizapplication.security.model.dto.AuthDto;
+import com.ulianoff.quizapplication.security.security.dao.UserAuthenticationRestClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.GrantedAuthority;

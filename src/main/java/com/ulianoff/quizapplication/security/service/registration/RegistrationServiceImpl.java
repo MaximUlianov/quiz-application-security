@@ -1,9 +1,9 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.service.registration;
+package com.ulianoff.quizapplication.security.service.registration;
 
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto.LoginDto;
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto.UserDto;
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.security.service.AuthenticationService;
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.service.registration.dao.RegistrationRestClient;
+import com.ulianoff.quizapplication.security.model.dto.LoginDto;
+import com.ulianoff.quizapplication.security.model.dto.UserDto;
+import com.ulianoff.quizapplication.security.security.service.AuthenticationService;
+import com.ulianoff.quizapplication.security.service.registration.dao.RegistrationRestClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

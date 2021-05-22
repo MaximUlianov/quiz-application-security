@@ -1,4 +1,4 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity;
+package com.ulianoff.quizapplication.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

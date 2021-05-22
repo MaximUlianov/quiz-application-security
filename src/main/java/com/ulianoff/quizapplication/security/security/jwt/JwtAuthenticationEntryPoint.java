@@ -1,4 +1,4 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.security.jwt;
+package com.ulianoff.quizapplication.security.security.jwt;
 
 import lombok.SneakyThrows;
 import org.springframework.security.core.AuthenticationException;

@@ -1,4 +1,4 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.security.jwt;
+package com.ulianoff.quizapplication.security.security.jwt;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.SignatureException;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
-    @Value("@{jwt.token.prefix}")
+    @Value("${jwt.token.prefix}")
     private String tokenPrefix;
 
     @Qualifier("applicationUserDetailService")

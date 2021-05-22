@@ -1,6 +1,6 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.service.registration.dao;
+package com.ulianoff.quizapplication.security.service.registration.dao;
 
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto.UserDto;
+import com.ulianoff.quizapplication.security.model.dto.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

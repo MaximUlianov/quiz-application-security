@@ -1,6 +1,6 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.security.dao;
+package com.ulianoff.quizapplication.security.security.dao;
 
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto.AuthDto;
+import com.ulianoff.quizapplication.security.model.dto.AuthDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

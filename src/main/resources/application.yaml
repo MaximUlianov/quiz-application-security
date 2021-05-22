@@ -4,7 +4,8 @@ server:
 jwt:
   signkey: quizappsec123sign
   token:
-    validity_seconds: 3600
+    validity_seconds: 100000000
+    prefix: Bearer
 
 feign:
   client:

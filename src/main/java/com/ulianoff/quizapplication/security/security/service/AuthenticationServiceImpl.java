@@ -1,7 +1,7 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.security.service;
+package com.ulianoff.quizapplication.security.security.service;
 
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto.LoginDto;
-import com.ulianoff.quizapplication.security.quizapplicationsecurity.security.jwt.JwtTokenUtil;
+import com.ulianoff.quizapplication.security.model.dto.LoginDto;
+import com.ulianoff.quizapplication.security.security.jwt.JwtTokenUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -1,4 +1,4 @@
-package com.ulianoff.quizapplication.security.quizapplicationsecurity.model.dto;
+package com.ulianoff.quizapplication.security.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
